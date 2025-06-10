@@ -24,7 +24,7 @@
                 <strong>"Com que frequência isso acontece comigo?"</strong>
             </p>
             <div style="display: flex; gap: 1rem; justify-content: center;">
-                <button id="back-to-name">Voltar</button>
+                <button id="back-to-name"></button>             
                 <button id="next-to-test">Vamos lá!</button>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 <!-- Pergunta individual será inserida aqui via JavaScript -->
             </div>
             <div id="question-nav" style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
-                <button id="prev-question">Voltar</button>
+                <button id="prev-question"></button>
                 <button id="next-question">Avançar</button>
             </div>
             <div class="result-container" style="display: none;">
