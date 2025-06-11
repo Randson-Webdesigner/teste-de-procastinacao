@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <img class="logo" src="img/lg.png" width="300" alt="Logo" class="logo">
+        <img class="logo" src="img/lg.jpg" width="300" alt="Logo" class="logo"><br>
         <div class="start-container" id="start-container">
             <h1>Bem-vindo ao Teste de Procrastinação</h1>
             <p class="description">Digite seu nome para começar:</p>
@@ -20,8 +20,9 @@
         <div class="instructions-container" id="instructions-container" style="display: none;">
             <h2>Instruções</h2>
             <p class="description">
-                Responda às seguintes perguntas tendo o seguinte em mente:<br><br>
-                <strong>"Com que frequência isso acontece comigo?"</strong>
+                    Você sofre de Procrastinação? Faça o teste e descubra
+                    (duração: 3 minutos)<br><br>
+                <strong>"Seu primeiro passo para superar a procrastinação é ser honesto consigo mesmo."</strong>
             </p>
             <div style="display: flex; gap: 1rem; justify-content: center;">
                 <button id="back-to-name"></button>             

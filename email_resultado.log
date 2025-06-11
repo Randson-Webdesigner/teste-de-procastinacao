@@ -1,0 +1,3569 @@
+[2025-06-11 01:53:05] Erro: Requisição inválida
+[2025-06-11 01:55:47] Script iniciado
+[2025-06-11 01:55:47] Método da requisição: POST
+[2025-06-11 01:55:47] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+)
+
+[2025-06-11 01:55:47] Email de origem: suporte.randson@gmail.com
+[2025-06-11 01:55:47] Email de destino: não informado
+[2025-06-11 01:55:47] Email de destino não informado, usando email de origem
+[2025-06-11 01:55:47] Configurando servidor SMTP
+[2025-06-11 01:55:47] Testando conexão SMTP
+[2025-06-11 01:55:47] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-11 01:55:47] SMTP Debug: Connection: opened
+[2025-06-11 01:55:47] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-11 01:55:47] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 01:55:48] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 01:55:48] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-11 01:55:48] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-11 01:55:48] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-11 01:55:49] Conexão SMTP estabelecida com sucesso
+[2025-06-11 01:55:49] Configurando remetente e destinatário
+[2025-06-11 01:55:49] Tentando enviar email
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-11 01:55:49] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: Date: Wed, 11 Jun 2025 01:55:49 +0200
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Compartilhamento?=
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: Message-ID: <NG7nCJbDmcm9CFxo2xYll1QQ9UHvRrmxnq50a5fWusw@localhost>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <h2>Resultado do Teste de Procrastinação</h2>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <p>Olá,</p>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <p>Este é o resultado do seu teste de procrastinação.</p>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <p>Data e hora do envio: 11/06/2025 01:55:49</p>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <hr>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:                 <p>Mensagem enviada automaticamente pelo sistema Radar do RH.</p>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:55:49] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-11 01:55:50] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as DF6D0100170
+
+[2025-06-11 01:55:50] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-11 01:55:50] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-11 01:55:50] SMTP Debug: Connection: closed
+[2025-06-11 01:55:50] Email enviado com sucesso!
+[2025-06-11 01:58:13] Script iniciado
+[2025-06-11 01:58:13] Método da requisição: POST
+[2025-06-11 01:58:13] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+)
+
+[2025-06-11 01:58:13] Email de origem: suporte.randson@gmail.com
+[2025-06-11 01:58:13] Email de destino: não informado
+[2025-06-11 01:58:13] Email de destino não informado, usando email de origem
+[2025-06-11 01:58:13] Configurando servidor SMTP
+[2025-06-11 01:58:13] Testando conexão SMTP
+[2025-06-11 01:58:13] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-11 01:58:14] SMTP Debug: Connection: opened
+[2025-06-11 01:58:14] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-11 01:58:14] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 01:58:14] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 01:58:14] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-11 01:58:14] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-11 01:58:15] Conexão SMTP estabelecida com sucesso
+[2025-06-11 01:58:15] Configurando remetente e destinatário
+[2025-06-11 01:58:15] Tentando enviar email
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-11 01:58:15] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Date: Wed, 11 Jun 2025 01:58:15 +0200
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Message-ID: <SQV0PclQSwO7LbitEEMl4WQtsLS1QbXU7Ni3ifQjA@localhost>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_SQV0PclQSwO7LbitEEMl4WQtsLS1QbXU7Ni3ifQjA"
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: --b1=_SQV0PclQSwO7LbitEEMl4WQtsLS1QbXU7Ni3ifQjA
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Olá!
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 11/06/2025 01:58:15
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: --b1=_SQV0PclQSwO7LbitEEMl4WQtsLS1QbXU7Ni3ifQjA
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         background-color: #2c3e50;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá!</h2>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 11/06/2025 01:58:15</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Se quiser compartilhar este teste com amigos ou colegas, basta usar o botão abaixo:</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <center>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                         <a href='https://radardorh.com.br' class='button'>Compartilhar Teste</a>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     </center>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: --b1=_SQV0PclQSwO7LbitEEMl4WQtsLS1QbXU7Ni3ifQjA--
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 01:58:15] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-11 01:58:16] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as EA80A10010F
+
+[2025-06-11 01:58:16] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-11 01:58:16] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-11 01:58:16] SMTP Debug: Connection: closed
+[2025-06-11 01:58:16] Email enviado com sucesso!
+[2025-06-11 02:04:33] Script iniciado
+[2025-06-11 02:04:33] Método da requisição: POST
+[2025-06-11 02:04:33] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-11 02:04:33] Email de origem: suporte.randson@gmail.com
+[2025-06-11 02:04:33] Email de destino: não informado
+[2025-06-11 02:04:33] Email de destino não informado, usando email de origem
+[2025-06-11 02:04:33] Configurando servidor SMTP
+[2025-06-11 02:04:33] Testando conexão SMTP
+[2025-06-11 02:04:33] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-11 02:04:33] SMTP Debug: Connection: opened
+[2025-06-11 02:04:33] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-11 02:04:33] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 02:04:33] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 02:04:33] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-11 02:04:33] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-11 02:04:34] Conexão SMTP estabelecida com sucesso
+[2025-06-11 02:04:34] Configurando remetente e destinatário
+[2025-06-11 02:04:34] Tentando enviar email
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-11 02:04:34] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-11 02:04:34] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-11 02:04:35] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Date: Wed, 11 Jun 2025 02:04:34 +0200
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Message-ID: <mxU7dgEmTIBB6gMLSw0AuQvqglKqkt4GE7vMRdOv4U@localhost>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_mxU7dgEmTIBB6gMLSw0AuQvqglKqkt4GE7vMRdOv4U"
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: --b1=_mxU7dgEmTIBB6gMLSw0AuQvqglKqkt4GE7vMRdOv4U
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Olá, Randson!
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 11/06/2025 02:04:34
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: --b1=_mxU7dgEmTIBB6gMLSw0AuQvqglKqkt4GE7vMRdOv4U
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         background-color: #2c3e50;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson!</h2>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 11/06/2025 02:04:34</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Se quiser compartilhar este teste com amigos ou colegas, basta usar o botão abaixo:</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <center>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                         <a href='https://radardorh.com.br' class='button'>Compartilhar Teste</a>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     </center>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: --b1=_mxU7dgEmTIBB6gMLSw0AuQvqglKqkt4GE7vMRdOv4U--
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-11 02:04:35] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 3402914011C
+
+[2025-06-11 02:04:35] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-11 02:04:35] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-11 02:04:35] SMTP Debug: Connection: closed
+[2025-06-11 02:04:35] Email enviado com sucesso!
+[2025-06-10 21:09:59] Script iniciado
+[2025-06-10 21:09:59] Método da requisição: POST
+[2025-06-10 21:09:59] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:09:59] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:09:59] Email de destino: não informado
+[2025-06-10 21:09:59] Email de destino não informado, usando email de origem
+[2025-06-10 21:09:59] Configurando servidor SMTP
+[2025-06-10 21:09:59] Testando conexão SMTP
+[2025-06-10 21:09:59] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:09:59] SMTP Debug: Connection: opened
+[2025-06-10 21:09:59] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:09:59] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:09:59] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:09:59] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:10:00] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:10:00] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:10:00] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:10:00] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:10:00] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:10:00] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:10:01] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:10:01] Configurando remetente e destinatário
+[2025-06-10 21:10:01] Tentando enviar email
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:10:01 -0300
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Message-ID: <wwm7RsYKiRChEM1i5bU1HWZ0u2ZWO4t76u1j9CUkI@localhost>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_wwm7RsYKiRChEM1i5bU1HWZ0u2ZWO4t76u1j9CUkI"
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: --b1=_wwm7RsYKiRChEM1i5bU1HWZ0u2ZWO4t76u1j9CUkI
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Olá, Randson!
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:10:01
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: --b1=_wwm7RsYKiRChEM1i5bU1HWZ0u2ZWO4t76u1j9CUkI
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         background-color: #2c3e50;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson!</h2>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:10:01</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: --b1=_wwm7RsYKiRChEM1i5bU1HWZ0u2ZWO4t76u1j9CUkI--
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:10:01] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 9901C1401CC
+
+[2025-06-10 21:10:01] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:10:02] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:10:02] SMTP Debug: Connection: closed
+[2025-06-10 21:10:02] Email enviado com sucesso!
+[2025-06-10 21:16:05] Script iniciado
+[2025-06-10 21:16:05] Método da requisição: POST
+[2025-06-10 21:16:05] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:16:05] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:16:05] Email de destino: não informado
+[2025-06-10 21:16:05] Email de destino não informado, usando email de origem
+[2025-06-10 21:16:05] Configurando servidor SMTP
+[2025-06-10 21:16:05] Testando conexão SMTP
+[2025-06-10 21:16:05] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:16:05] SMTP Debug: Connection: opened
+[2025-06-10 21:16:05] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:16:05] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:16:06] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:16:06] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:16:06] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:16:06] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:16:07] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:16:07] Configurando remetente e destinatário
+[2025-06-10 21:16:07] Tentando enviar email
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:16:07] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:16:07 -0300
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Message-ID: <RsBiFnOIuVwhWAIIkW5PqcAsSapufIxuczMoXHbQ@localhost>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_RsBiFnOIuVwhWAIIkW5PqcAsSapufIxuczMoXHbQ"
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: --b1=_RsBiFnOIuVwhWAIIkW5PqcAsSapufIxuczMoXHbQ
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Olá, Randson!
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:16:07
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: --b1=_RsBiFnOIuVwhWAIIkW5PqcAsSapufIxuczMoXHbQ
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson!</h2>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:16:07</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: --b1=_RsBiFnOIuVwhWAIIkW5PqcAsSapufIxuczMoXHbQ--
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:16:07] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:16:08] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as CEB551001F4
+
+[2025-06-10 21:16:08] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:16:08] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:16:08] SMTP Debug: Connection: closed
+[2025-06-10 21:16:08] Email enviado com sucesso!
+[2025-06-10 21:33:30] Script iniciado
+[2025-06-10 21:33:30] Método da requisição: POST
+[2025-06-10 21:33:30] POST data: Array
+(
+    [yourEmail] => contato@randson.com.br
+    [friendEmail] => suporte.randson@gmail.com
+    [userName] => Randson Farias
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:33:30] Email de origem: contato@randson.com.br
+[2025-06-10 21:33:30] Email de destino: suporte.randson@gmail.com
+[2025-06-10 21:33:30] Configurando servidor SMTP
+[2025-06-10 21:33:30] Testando conexão SMTP
+[2025-06-10 21:33:30] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:33:30] SMTP Debug: Connection: opened
+[2025-06-10 21:33:30] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:33:30] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:33:30] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:33:30] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:33:30] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:33:31] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:33:31] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:33:31] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:33:31] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:33:31] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:33:31] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:33:31] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:33:31] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:33:31] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:33:31] Configurando remetente e destinatário
+[2025-06-10 21:33:31] Tentando enviar email
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:33:32] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:33:32] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:33:32] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:33:31 -0300
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: To: suporte.randson@gmail.com
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Message-ID: <7ecW87WXjBrHZrLKmXqbEoAsBuYyUy7s89jukog3E@localhost>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_7ecW87WXjBrHZrLKmXqbEoAsBuYyUy7s89jukog3E"
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: --b1=_7ecW87WXjBrHZrLKmXqbEoAsBuYyUy7s89jukog3E
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Olá, Randson Farias!
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:33:31
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: --b1=_7ecW87WXjBrHZrLKmXqbEoAsBuYyUy7s89jukog3E
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson Farias!</h2>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:33:31</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: --b1=_7ecW87WXjBrHZrLKmXqbEoAsBuYyUy7s89jukog3E--
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:33:32] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as A03A81400D1
+
+[2025-06-10 21:33:32] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:33:32] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:33:32] SMTP Debug: Connection: closed
+[2025-06-10 21:33:32] Email enviado com sucesso!
+[2025-06-10 21:38:34] Script iniciado
+[2025-06-10 21:38:34] Método da requisição: POST
+[2025-06-10 21:38:34] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => contato@randson.com.br
+    [userName] => Fabiola
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:38:34] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:38:34] Email de destino: contato@randson.com.br
+[2025-06-10 21:38:34] Email de origem final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:38:34] Email de destino final (para PHPMailer): contato@randson.com.br
+[2025-06-10 21:38:34] Configurando servidor SMTP
+[2025-06-10 21:38:34] Testando conexão SMTP
+[2025-06-10 21:38:34] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:38:35] SMTP Debug: Connection: opened
+[2025-06-10 21:38:35] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:38:35] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:38:35] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:38:35] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:38:35] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:38:36] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:38:36] Configurando remetente e destinatário
+[2025-06-10 21:38:36] Tentando enviar email
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: RCPT TO:<contato@randson.com.br>
+
+[2025-06-10 21:38:36] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:38:36] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:38:37] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:38:36 -0300
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: To: =?UTF-8?B?Vm9jw6o=?= <suporte.randson@gmail.com>, Para a Empresa <contato@randson.com.br>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Message-ID: <2fWylgSH8N1GouhlTCF2IH93KBeFsezHCbWFQyoaHI@localhost>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_2fWylgSH8N1GouhlTCF2IH93KBeFsezHCbWFQyoaHI"
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: --b1=_2fWylgSH8N1GouhlTCF2IH93KBeFsezHCbWFQyoaHI
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Olá, Fabiola!
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:38:36
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: --b1=_2fWylgSH8N1GouhlTCF2IH93KBeFsezHCbWFQyoaHI
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Fabiola!</h2>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:38:36</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: --b1=_2fWylgSH8N1GouhlTCF2IH93KBeFsezHCbWFQyoaHI--
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:38:37] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 10297100512
+
+[2025-06-10 21:38:37] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:38:37] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:38:37] SMTP Debug: Connection: closed
+[2025-06-10 21:38:37] Email enviado com sucesso!
+[2025-06-10 21:51:09] Script iniciado
+[2025-06-10 21:51:09] Método da requisição: POST
+[2025-06-10 21:51:09] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:51:09] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:51:09] Email de destino: não informado
+[2025-06-10 21:51:09] Email de destino não informado, usando email de origem
+[2025-06-10 21:51:09] Email de origem final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:51:09] Email de destino final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:51:09] Configurando servidor SMTP
+[2025-06-10 21:51:09] Testando conexão SMTP
+[2025-06-10 21:51:09] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:51:09] SMTP Debug: Connection: opened
+[2025-06-10 21:51:10] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:51:10] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:51:10] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:51:10] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:51:10] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:51:10] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:51:10] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:51:10] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:51:11] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:51:11] Configurando remetente e destinatário
+[2025-06-10 21:51:11] Tentando enviar email
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:51:11] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:51:11 -0300
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: To: =?UTF-8?B?Vm9jw6o=?= <suporte.randson@gmail.com>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Message-ID: <SRDwP9RqGiYhoND72lpSjM1qSt3ze0FEyV3KzHZVhM@localhost>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_SRDwP9RqGiYhoND72lpSjM1qSt3ze0FEyV3KzHZVhM"
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: --b1=_SRDwP9RqGiYhoND72lpSjM1qSt3ze0FEyV3KzHZVhM
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Olá, Randson!
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:51:11
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: --b1=_SRDwP9RqGiYhoND72lpSjM1qSt3ze0FEyV3KzHZVhM
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson!</h2>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:51:11</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: --b1=_SRDwP9RqGiYhoND72lpSjM1qSt3ze0FEyV3KzHZVhM--
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:51:11] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:51:12] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as D5EEB60044
+
+[2025-06-10 21:51:12] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:51:12] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:51:12] SMTP Debug: Connection: closed
+[2025-06-10 21:51:12] Email enviado com sucesso!
+[2025-06-10 21:52:09] Script iniciado
+[2025-06-10 21:52:09] Método da requisição: POST
+[2025-06-10 21:52:09] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:52:09] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:52:09] Email de destino: não informado
+[2025-06-10 21:52:09] Email de destino não informado, usando email de origem
+[2025-06-10 21:52:09] Email de origem final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:52:09] Email de destino final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:52:09] Configurando servidor SMTP
+[2025-06-10 21:52:09] Testando conexão SMTP
+[2025-06-10 21:52:09] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:52:09] SMTP Debug: Connection: opened
+[2025-06-10 21:52:09] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:52:09] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:52:09] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:52:09] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:52:09] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:52:10] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:52:10] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:52:10] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:52:10] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:52:10] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:52:10] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:52:10] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:52:11] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:52:11] Configurando remetente e destinatário
+[2025-06-10 21:52:11] Tentando enviar email
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:52:11 -0300
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: To: =?UTF-8?B?Vm9jw6o=?= <suporte.randson@gmail.com>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Message-ID: <UVUQFNoPAa8L0ICCrdlySwidokACnUigxFIdNCk@localhost>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_UVUQFNoPAa8L0ICCrdlySwidokACnUigxFIdNCk"
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: --b1=_UVUQFNoPAa8L0ICCrdlySwidokACnUigxFIdNCk
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Olá, Randson!
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:52:11
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://radardorh.com.br
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: --b1=_UVUQFNoPAa8L0ICCrdlySwidokACnUigxFIdNCk
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson!</h2>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:52:11</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: --b1=_UVUQFNoPAa8L0ICCrdlySwidokACnUigxFIdNCk--
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 82CC6100021
+
+[2025-06-10 21:52:11] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:52:11] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:52:11] SMTP Debug: Connection: closed
+[2025-06-10 21:52:11] Email enviado com sucesso!
+[2025-06-10 21:54:58] Script iniciado
+[2025-06-10 21:54:58] Método da requisição: POST
+[2025-06-10 21:54:58] POST data: Array
+(
+    [yourEmail] => suporte.randson@gmail.com
+    [friendEmail] => 
+    [userName] => Randson Araújo
+    [grauTexto] => procrastinação de grau moderado
+    [resultDescription] => Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+)
+
+[2025-06-10 21:54:58] Email de origem: suporte.randson@gmail.com
+[2025-06-10 21:54:58] Email de destino: não informado
+[2025-06-10 21:54:58] Email de destino não informado, usando email de origem
+[2025-06-10 21:54:58] Email de origem final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:54:58] Email de destino final (para PHPMailer): suporte.randson@gmail.com
+[2025-06-10 21:54:58] Configurando servidor SMTP
+[2025-06-10 21:54:58] Testando conexão SMTP
+[2025-06-10 21:54:58] SMTP Debug: Connection: opening to smtp.titan.email:587, timeout=30, options=array()
+[2025-06-10 21:54:58] SMTP Debug: Connection: opened
+[2025-06-10 21:54:58] SMTP Debug: SERVER -> CLIENT: 220 smtp-out.flockmail.com ESMTP Postfix
+
+[2025-06-10 21:54:58] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:54:58] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:54:58] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[2025-06-10 21:54:58] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[2025-06-10 21:54:59] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[2025-06-10 21:54:59] SMTP Debug: SERVER -> CLIENT: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[2025-06-10 21:54:59] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-06-10 21:54:59] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-06-10 21:54:59] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:54:59] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-06-10 21:54:59] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[2025-06-10 21:54:59] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[2025-06-10 21:54:59] Conexão SMTP estabelecida com sucesso
+[2025-06-10 21:54:59] Configurando remetente e destinatário
+[2025-06-10 21:54:59] Tentando enviar email
+[2025-06-10 21:54:59] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<contato@radardorh.com.br>
+
+[2025-06-10 21:55:00] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: RCPT TO:<suporte.randson@gmail.com>
+
+[2025-06-10 21:55:00] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: DATA
+
+[2025-06-10 21:55:00] SMTP Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Date: Tue, 10 Jun 2025 21:54:59 -0300
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: To: =?UTF-8?B?Vm9jw6o=?= <suporte.randson@gmail.com>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: From: Radar do RH <contato@radardorh.com.br>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Subject: =?UTF-8?Q?Teste_de_Procrastina=C3=A7=C3=A3o_-_Radar_do_RH?=
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Message-ID: <9ezPNF8BAATAv7IwroR3Iajf6DCPsYS4TAZy1jDi70@localhost>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:  boundary="b1=_9ezPNF8BAATAv7IwroR3Iajf6DCPsYS4TAZy1jDi70"
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: --b1=_9ezPNF8BAATAv7IwroR3Iajf6DCPsYS4TAZy1jDi70
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Radar do RH - Teste de Procrastinação
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Olá, Randson Araújo!
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Data e hora do teste: 10/06/2025 21:54:59
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Status: Análise Concluída
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Seu Resultado:
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Grau de Procrastinação: procrastinação de grau moderado
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Dicas para melhorar sua produtividade:
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             - Estabeleça metas claras e realistas
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             - Divida tarefas grandes em partes menores
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             - Use técnicas de gerenciamento de tempo
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             - Elimine distrações durante o trabalho
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Para mais informações, visite: https://www.radardorh.com.br
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             © 2025 Radar do RH - Todos os direitos reservados
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             Este é um email automático, por favor não responda.
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: --b1=_9ezPNF8BAATAv7IwroR3Iajf6DCPsYS4TAZy1jDi70
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             <html>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             <head>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 <style>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     body {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         font-family: Arial, sans-serif;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         line-height: 1.6;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         color: #333333;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         max-width: 600px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         margin: 0 auto;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .header {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         background-color: #E63168;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px 5px 0 0;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .content {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         background-color: #ffffff;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 20px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #e0e0e0;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border-radius: 0 0 5px 5px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .footer {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         text-align: center;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         margin-top: 20px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         font-size: 12px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         color: #666666;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .button {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         display: inline-block;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 10px 20px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         background-color: #3498db;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         color: white;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         text-decoration: none;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .highlight {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         background-color: #f8f9fa;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border-left: 4px solid #3498db;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     .result-box {
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         background-color: #f1f8ff;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border: 1px solid #b3d7ff;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         padding: 15px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         margin: 20px 0;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         border-radius: 5px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     p{
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         font-size: 16px;
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     }
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 </style>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             </head>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             <body>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 <div class='header'>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <h1>Radar do RH</h1>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Teste de Procrastinação</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 <div class='content'>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <h2>Olá, Randson Araújo!</h2>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Recebemos seu resultado do Teste de Procrastinação. Este é um momento importante para refletir sobre seus hábitos e identificar oportunidades de melhoria.</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <div class='highlight'>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Data e hora do teste:</strong> 10/06/2025 21:54:59</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Status:</strong> Análise Concluída</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <div class='result-box'>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <h3>Seu Resultado</h3>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <p><strong>Grau de Procrastinação:</strong> procrastinação de grau moderado</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <p>Você tem alguns hábitos de procrastinação, mas ainda mantém um bom controle sobre suas tarefas. Considere trabalhar em técnicas de gestão de tempo para melhorar ainda mais.</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     </div>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Algumas dicas para melhorar sua produtividade:</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <ul>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <li>Estabeleça metas claras e realistas</li>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <li>Divida tarefas grandes em partes menores</li>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <li>Use técnicas de gerenciamento de tempo</li>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                         <li>Elimine distrações durante o trabalho</li>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     </ul>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Lembre-se: A procrastinação é um hábito que pode ser modificado com dedicação e prática.</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 <div class='footer'>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Este é um email automático, por favor não responda.</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>© 2025 Radar do RH - Todos os direitos reservados</p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                     <p>Para mais informações, visite: <a href='https://radardorh.com.br'>radardorh.com.br</a></p>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:                 </div>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             </body>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER:             </html>
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: --b1=_9ezPNF8BAATAv7IwroR3Iajf6DCPsYS4TAZy1jDi70--
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: 
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: .
+
+[2025-06-10 21:55:00] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 64762E023D
+
+[2025-06-10 21:55:00] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[2025-06-10 21:55:00] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[2025-06-10 21:55:00] SMTP Debug: Connection: closed
+[2025-06-10 21:55:00] Email enviado com sucesso!

@@ -160,8 +160,47 @@ function showResult(result) {
         e.preventDefault();
         const yourEmail = document.getElementById('your-email').value;
         const friendEmail = document.getElementById('friend-email').value;
-        document.getElementById('share-modal').style.display = 'none';
-        this.reset();
+
+        // Criar FormData para enviar os dados
+        const formData = new FormData();
+        formData.append('yourEmail', yourEmail);
+        formData.append('friendEmail', friendEmail);
+        
+        // Adicionar as variáveis do resultado
+        formData.append('userName', userName || 'Usuário');
+        formData.append('grauTexto', grauTexto || '');
+        formData.append('resultDescription', results[result].description || '');
+
+        // Mostrar indicador de carregamento
+        const sendButton = document.getElementById('send-share');
+        const originalText = sendButton.textContent;
+        sendButton.textContent = 'Enviando...';
+        sendButton.disabled = true;
+
+        // Fazer a chamada AJAX
+        fetch('enviar_email.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showNotification(data.msg, 'success', data.details);
+                document.getElementById('share-modal').style.display = 'none';
+                this.reset();
+            } else {
+                showNotification(data.msg, 'error', data.details);
+            }
+        })
+        .catch(error => {
+            showNotification('Erro ao enviar e-mail. Por favor, tente novamente.', 'error');
+            console.error('Erro:', error);
+        })
+        .finally(() => {
+            // Restaurar o botão
+            sendButton.textContent = originalText;
+            sendButton.disabled = false;
+        });
     };
 }
 
@@ -242,4 +281,54 @@ document.addEventListener('DOMContentLoaded', () => {
         testContainer.style.display = 'block';
         initializeTestIndividual();
     };
-}); 
+});
+
+// --- Função para notificações personalizadas ---
+function showNotification(message, type, details = '') {
+    const notificationDiv = document.createElement('div');
+    notificationDiv.classList.add('custom-notification');
+    
+    // Estilos básicos inline para visibilidade e aparência
+    notificationDiv.style.position = 'fixed';
+    notificationDiv.style.top = '20px';
+    notificationDiv.style.right = '20px';
+    notificationDiv.style.padding = '15px 25px';
+    notificationDiv.style.borderRadius = '8px';
+    notificationDiv.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+    notificationDiv.style.zIndex = '1000';
+    notificationDiv.style.color = 'white';
+    notificationDiv.style.fontSize = '1em';
+    notificationDiv.style.opacity = '0'; // Começa invisível
+    notificationDiv.style.transition = 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out';
+    notificationDiv.style.transform = 'translateY(-20px)'; // Começa um pouco acima
+
+    if (type === 'success') {
+        notificationDiv.style.backgroundColor = '#28a745'; // Verde para sucesso
+    } else {
+        notificationDiv.style.backgroundColor = '#dc3545'; // Vermelho para erro
+    }
+
+    let content = `<strong>${message}</strong>`;
+    if (details) {
+        content += `<br><small>${details}</small>`;
+    }
+    notificationDiv.innerHTML = content;
+
+    document.body.appendChild(notificationDiv);
+
+    // Animação de entrada
+    setTimeout(() => {
+        notificationDiv.style.opacity = '1';
+        notificationDiv.style.transform = 'translateY(0)';
+    }, 50); // Pequeno atraso para garantir a transição
+
+    // Animação de saída e remoção após 5 segundos
+    setTimeout(() => {
+        notificationDiv.style.opacity = '0';
+        notificationDiv.style.transform = 'translateY(-20px)';
+        notificationDiv.addEventListener('transitionend', function handler() {
+            notificationDiv.remove();
+            notificationDiv.removeEventListener('transitionend', handler);
+        }, { once: true }); // Garante que o handler seja removido após a execução
+    }, 5000);
+} 
